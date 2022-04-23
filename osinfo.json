@@ -1,0 +1,66 @@
+{
+    "hostname": "DESKTOP-Q9MLHMK",
+    "platform": "win32",
+    "architecture": "x64",
+    "numberOfCPUS": 4,
+    "networkInterfaces": {
+        "Wi-Fi": [
+            {
+                "address": "fe80::29bf:89d2:9a57:96bb",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "b0:35:9f:ad:17:54",
+                "internal": false,
+                "cidr": "fe80::29bf:89d2:9a57:96bb/64",
+                "scopeid": 5
+            },
+            {
+                "address": "172.16.17.24",
+                "netmask": "255.255.254.0",
+                "family": "IPv4",
+                "mac": "b0:35:9f:ad:17:54",
+                "internal": false,
+                "cidr": "172.16.17.24/23"
+            }
+        ],
+        "Loopback Pseudo-Interface 1": [
+            {
+                "address": "::1",
+                "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+                "family": "IPv6",
+                "mac": "00:00:00:00:00:00",
+                "internal": true,
+                "cidr": "::1/128",
+                "scopeid": 0
+            },
+            {
+                "address": "127.0.0.1",
+                "netmask": "255.0.0.0",
+                "family": "IPv4",
+                "mac": "00:00:00:00:00:00",
+                "internal": true,
+                "cidr": "127.0.0.1/8"
+            }
+        ],
+        "vEthernet (Default Switch)": [
+            {
+                "address": "fe80::3d65:26c3:d790:2b12",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "00:15:5d:15:b8:40",
+                "internal": false,
+                "cidr": "fe80::3d65:26c3:d790:2b12/64",
+                "scopeid": 21
+            },
+            {
+                "address": "172.30.224.1",
+                "netmask": "255.255.240.0",
+                "family": "IPv4",
+                "mac": "00:15:5d:15:b8:40",
+                "internal": false,
+                "cidr": "172.30.224.1/20"
+            }
+        ]
+    },
+    "uptime": 10996
+}
